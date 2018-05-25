@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="">
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+        android:icon="@drawable/ic_account"/>
+        <item android:title="Sort"><menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/popularity"
+                    android:title="Our Recommendation"
+                    android:icon="@drawable/ic_smile"/>
+                <item
+                    android:id="@+id/asc_price"
+                    android:title="Price Low to High"
+                    android:icon="@drawable/ic_up"/>
+                <item
+                    android:id="@+id/desc_price"
+                    android:title="Price High to Low"
+                    android:icon="@drawable/ic_up"/>
+                <item
+                    android:id="@+id/asc_location"
+                    android:title="Location"
+                    android:icon="@drawable/ic_tag"/>
+
+            </group></menu></item>
+
+    </item>
+
+</menu>

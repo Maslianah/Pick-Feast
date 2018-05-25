@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRed">#D50F25</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorPink">#FADBD8</color>
+    <color name="colrPink2">#F2D7D5</color>
+    <color name="crimson">#DC143C</color>
+    <color name="firebrick">#B22222</color>
+    <color name="mistyrose">#FFE4E1</color>
+
+
+</resources>

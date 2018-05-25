@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mistyrose">
+
+    <TextView
+        android:id="@+id/page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/bookNowButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text=" 1 of 3 " />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/page"
+        android:layout_centerHorizontal="true"
+        android:text="ORDER"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="25dp"
+        android:layout_toStartOf="@+id/bookNowButton"
+        android:text="Delivery Address:"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <RadioButton
+                android:id="@+id/rb_sameaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rb_diffaddress"
+                android:layout_toStartOf="@+id/page"
+                android:text="Use the same account address"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/rb_diffaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/text_addressDesc"
+                android:layout_below="@+id/textView"
+                android:text="Different address" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/text_addressDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:background="@drawable/border_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="169dp"
+        android:inputType="text|textMultiLine|textCapSentences"
+        android:gravity="left"
+        android:ems="10"/>
+
+    <Button
+        android:id="@+id/bookNowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="47dp"
+        android:layout_marginEnd="31dp"
+        android:background="@color/firebrick"
+        android:text="NEXT"
+        android:textColor="@color/colorWhite" />
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mistyrose">
+
+    <TextView
+        android:id="@+id/page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonDoneOrder4"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text=" 3 of 3 " />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/page"
+        android:layout_centerHorizontal="true"
+        android:text="ORDER"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        android:text="Invoice:"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/text_details"
+        android:background="@drawable/border_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:ems="10"
+        android:hint="Details"
+        android:inputType="text|textMultiLine|textCapSentences"
+        android:gravity="start"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="126dp"
+        android:fontFamily="casual"
+        android:text="NOTE: Confirmation will be done within 3 business days for Big Event and 2 hours for On Spot."
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonDoneOrder4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="47dp"
+        android:layout_marginEnd="31dp"
+        android:background="@color/firebrick"
+        android:text="DONE"
+        android:textColor="@color/colorWhite" />
+
+
+</RelativeLayout>

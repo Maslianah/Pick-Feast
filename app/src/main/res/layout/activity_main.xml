@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPink">
+    <Button
+        android:id="@+id/buttonOnSpot"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonBigEvent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:text="On spot"
+        android:background="@android:color/holo_red_light"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/buttonBigEvent"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="179dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Big Event"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/buttonCharity"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="112dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Charity"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <FrameLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/truck">
+
+    </FrameLayout>
+</RelativeLayout>

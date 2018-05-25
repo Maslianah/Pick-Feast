@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mistyrose">
+
+
+    <TextView
+        android:id="@+id/page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonNextOrder2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text=" 2 of 3 " />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/page"
+        android:layout_centerHorizontal="true"
+        android:text="ORDER"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:text="Number of pax"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/text_pax"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        android:ems="10"
+        android:hint="Pax"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="228dp"
+        android:text="Event Date"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/eventDate"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="244dp"
+        android:clickable="true"
+        android:editable="false"
+        android:hint="Date"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="188dp"
+        android:text="Event Time"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/eventTime"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="129dp"
+        android:clickable="true"
+        android:editable="false"
+        android:hint="Time"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+  <!--  <TimePicker
+        android:id="@+id/simpleTimePicker"
+        android:layout_width="219dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginBottom="131dp"
+        android:timePickerMode="spinner" />-->
+
+    <Button
+        android:id="@+id/buttonNextOrder2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="47dp"
+        android:layout_marginEnd="31dp"
+        android:background="@color/firebrick"
+        android:text="NEXT"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>

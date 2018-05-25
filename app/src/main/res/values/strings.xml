@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pick&amp;Feast</string>
+    <string name="title_activity_caterer_listings">Find Your Caterer!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_customer_logged">Welcome</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">My Order</string>
+    <string name="tab_text_3">Edit Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_charity_listings">Choose your charity home</string>
+
+</resources>

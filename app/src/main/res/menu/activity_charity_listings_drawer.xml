@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/popularity"
+                    android:title="Top"
+                    android:icon="@drawable/ic_rating"/>
+                <item
+                    android:id="@+id/alpha"
+                    android:title="Ascending Name"
+                    android:icon="@drawable/ic_desc"/>
+                <item
+                    android:id="@+id/asc_location"
+                    android:title="Location"
+                    android:icon="@drawable/ic_tag"/>
+
+
+            </group></menu>
+
+

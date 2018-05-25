@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "255267847643",
+    "firebase_url": "https://pickfeast-fyp.firebaseio.com",
+    "project_id": "pickfeast-fyp",
+    "storage_bucket": "pickfeast-fyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255267847643:android:734197e5cc83d35f",
+        "android_client_info": {
+          "package_name": "my.maslianah.com.pickfeastfyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255267847643-jvtnbgg6h3u6ckaehsf53aiaenqe68of.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.maslianah.com.pickfeastfyp",
+            "certificate_hash": "187ec2ae3dd1129939dd03201483360ac7aa995c"
+          }
+        },
+        {
+          "client_id": "255267847643-l12cc5fao2adjnvbhpr2vsjh0raj9cjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkxHtzkPyqfQoqJ7VN4WY7vzG4MeJdXHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255267847643-l12cc5fao2adjnvbhpr2vsjh0raj9cjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

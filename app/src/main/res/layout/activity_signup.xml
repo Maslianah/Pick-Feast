@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colrPink2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="SIGN UP"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPhonetic"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPostalAddress"
+        android:maxLines="5"
+        android:singleLine="false" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView16"
+        android:layout_centerHorizontal="true"
+        android:imeActionId="6"
+        android:imeActionLabel=""
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:imeActionId="6"
+        android:imeActionLabel=""
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="19dp"
+        android:gravity="center"
+        android:background="@color/crimson"
+        android:text="Create Account"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/name"
+        android:layout_alignTop="@+id/signUp"
+        android:gravity="center"
+        android:text="Cancel"
+        android:background="@color/firebrick"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="25dp"
+        android:layout_above="@+id/name"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginBottom="-81dp"
+        android:text="NAME"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="110dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/name"
+        android:layout_below="@+id/name"
+        android:text="PHONE:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="110dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/name"
+        android:layout_below="@+id/phone"
+        android:text="ADDRESS:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="110dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/name"
+        android:layout_below="@+id/address"
+        android:text="E-MAIL:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="110dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/name"
+        android:layout_below="@+id/email"
+        android:text="PASSWORD:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/name"
+        android:layout_below="@+id/password"
+        android:text="CONFIRM PASSWORD:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+</RelativeLayout>

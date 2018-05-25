@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colrPink2">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_catererdesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-52dp"
+        android:text="Details:"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/text_catererdesc"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/border_layout"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingLeft="200dp"
+        android:paddingRight="200dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:typeface="sans" />
+    <Button
+        android:id="@+id/bookNowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_catererdesc"
+        android:layout_centerHorizontal="true"
+        android:text="BOOK NOW!"
+        android:textAllCaps="false" />
+</RelativeLayout>
